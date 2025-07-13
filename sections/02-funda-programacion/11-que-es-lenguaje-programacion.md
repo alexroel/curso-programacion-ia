@@ -1,6 +1,6 @@
 # ¿Qué es un lenguaje de programación?
 
-## 🎯 Comunicándonos con la computadora (2 minutos)
+## 🎯 Comunicándonos con la computadora
 
 Un **lenguaje de programación** es como un idioma que usamos para "hablar" con la computadora y decirle exactamente qué queremos que haga.
 
@@ -9,7 +9,7 @@ Un **lenguaje de programación** es como un idioma que usamos para "hablar" con 
 - **Idioma humano**: Hablamos con otras personas
 - **Lenguaje de programación**: "Hablamos" con computadoras
 
-## 🗣️ De humano a máquina (2 minutos)
+## 🗣️ De humano a máquina
 
 ### Lo que TÚ piensas:
 
@@ -27,7 +27,7 @@ print("¡Hola!")
 
 **¡Python traduce por ti!** 🎉
 
-## 🌍 Diferentes lenguajes, diferentes propósitos (2 minutos)
+## 🌍 Diferentes lenguajes, diferentes propósitos
 
 ### Python 🐍
 
@@ -41,7 +41,7 @@ print("¡Hola!")
 - **Java**: Para aplicaciones grandes
 - **C++**: Para videojuegos y sistemas rápidos
 
-## 📝 ¿Por qué Python es perfecto para empezar? (1 minuto)
+## 📝 ¿Por qué Python es perfecto para empezar?
 
 ### Comparación rápida:
 

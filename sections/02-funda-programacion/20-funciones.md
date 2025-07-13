@@ -1,12 +1,12 @@
 # Funciones
 
-## 🎯 ¿Qué son las funciones? (1 minuto)
+## 🎯 ¿Qué son las funciones?
 
 Una **función** es como una mini-máquina que hace una tarea específica. Le das algo (entrada), hace su trabajo, y te devuelve un resultado.
 
 **Analogía**: Una licuadora es una función - le das frutas, las procesa, y te devuelve un jugo.
 
-## 🔧 Crear tu primera función (3 minutos)
+## 🔧 Crear tu primera función
 
 ### Sintaxis básica:
 
@@ -41,7 +41,7 @@ def sumar_dos_numeros():
 sumar_dos_numeros()  # El resultado es: 8
 ```
 
-## 📥 Funciones con parámetros (2 minutos)
+## 📥 Funciones con parámetros
 
 ### Recibir información:
 
@@ -67,7 +67,7 @@ sumar(5, 3)     # La suma es: 8
 sumar(10, 20)   # La suma es: 30
 ```
 
-## 📤 Funciones que devuelven valores (1 minuto)
+## 📤 Funciones que devuelven valores
 
 ```python
 def multiplicar(a, b):

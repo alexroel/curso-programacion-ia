@@ -1,10 +1,10 @@
 # Condicionales
 
-## 🎯 ¿Qué son los condicionales? (1 minuto)
+## 🎯 ¿Qué son los condicionales?
 
 Los **condicionales** permiten que tu programa tome decisiones. Es como decir: "**SI** pasa esto, **ENTONCES** haz aquello".
 
-## 🚦 La estructura if (3 minutos)
+## 🚦 La estructura if
 
 ### Sintaxis básica:
 
@@ -34,7 +34,7 @@ if nombre == "Ana":
     print("¡Hola Ana! ¡Qué nombre más bonito!")
 ```
 
-## ⚖️ Operadores de comparación (2 minutos)
+## ⚖️ Operadores de comparación
 
 ```python
 # Igual a
@@ -62,7 +62,7 @@ if edad != 18:
     print("No tienes 18 años")
 ```
 
-## 🔄 if-else: Dos opciones (1 minuto)
+## 🔄 if-else: Dos opciones
 
 ```python
 edad = int(input("¿Cuántos años tienes? "))

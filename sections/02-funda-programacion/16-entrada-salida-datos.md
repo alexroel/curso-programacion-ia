@@ -1,10 +1,10 @@
 # Entrada y salida de datos
 
-## 🎯 Programas interactivos (1 minuto)
+## 🎯 Programas interactivos
 
 Hasta ahora nuestros programas solo muestran información. ¡Es hora de hacerlos **interactivos**! Aprenderemos a pedirle información al usuario.
 
-## 📥 La función input() (3 minutos)
+## 📥 La función input()
 
 ### Pedir información:
 
@@ -35,7 +35,7 @@ print("Eres de:")
 print(ciudad)
 ```
 
-## 🔢 Importante: input() siempre da texto (2 minutos)
+## 🔢 Importante: input() siempre da texto
 
 ```python
 # ❌ Problema: input() siempre devuelve texto
@@ -61,7 +61,7 @@ numero = int(input("Un número: "))
 decimal = float(input("Un decimal: "))
 ```
 
-## 💻 Ejemplo completo: Calculadora simple (1 minuto)
+## 💻 Ejemplo completo: Calculadora simple
 
 ```python
 print("=== CALCULADORA SIMPLE ===")

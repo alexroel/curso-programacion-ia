@@ -1,4 +1,4 @@
-# Sección 2: Fundamentos de Programación
+# Fundamentos de Programación
 
 ## 🎯 Bienvenido a los fundamentos
 
@@ -28,7 +28,6 @@ Al final crearás un programa que:
 
 Cada lección será:
 
-- **Máximo 7 minutos**
 - **Concepto + ejemplo práctico**
 - **Ejercicio simple para practicar**
 

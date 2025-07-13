@@ -1,6 +1,6 @@
 # Variables
 
-## 🎯 ¿Qué son las variables? (2 minutos)
+## 🎯 ¿Qué son las variables?
 
 Una **variable** es como una caja con etiqueta donde guardas información para usarla después.
 
@@ -9,7 +9,7 @@ Una **variable** es como una caja con etiqueta donde guardas información para u
 - **Caja física**: Guardas objetos
 - **Variable**: Guardas datos (números, texto, etc.)
 
-## 💻 Crear tu primera variable (3 minutos)
+## 💻 Crear tu primera variable
 
 ### Sintaxis básica:
 
@@ -38,7 +38,7 @@ print(mi_edad)          # 25
 print(soy_estudiante)   # True
 ```
 
-## 🔄 Variables pueden cambiar (1 minuto)
+## 🔄 Variables pueden cambiar
 
 ```python
 puntos = 0              # Empezamos con 0 puntos
@@ -51,7 +51,7 @@ puntos = puntos + 5     # Sumamos 5 más
 print(puntos)           # 15
 ```
 
-## ✅ Ejercicio práctico (1 minuto)
+## ✅ Ejercicio práctico
 
 Crea un programa con:
 

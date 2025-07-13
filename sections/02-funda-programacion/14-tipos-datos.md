@@ -1,10 +1,10 @@
 # Tipos de datos
 
-## 🎯 ¿Qué son los tipos de datos? (1 minuto)
+## 🎯 ¿Qué son los tipos de datos?
 
 Python maneja diferentes **tipos** de información. Es como tener diferentes tipos de cajas para diferentes objetos.
 
-## 📝 Los 4 tipos básicos (4 minutos)
+## 📝 Los 4 tipos básicos
 
 ### 1. **String (str)** - Texto
 
@@ -45,7 +45,7 @@ tiene_trabajo = False
 print(es_estudiante)  # True
 ```
 
-## 🔍 Verificar tipos (1 minuto)
+## 🔍 Verificar tipos
 
 ```python
 print(type("Hola"))      # <class 'str'>
@@ -54,7 +54,7 @@ print(type(1.75))        # <class 'float'>
 print(type(True))        # <class 'bool'>
 ```
 
-## ✅ Ejercicio práctico (1 minuto)
+## ✅ Ejercicio práctico
 
 Crea variables de cada tipo:
 

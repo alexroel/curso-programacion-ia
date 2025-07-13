@@ -1,10 +1,10 @@
 # Ciclos
 
-## 🎯 ¿Qué son los ciclos? (1 minuto)
+## 🎯 ¿Qué son los ciclos?
 
 Los **ciclos** (o bucles) permiten repetir código automáticamente. En lugar de escribir lo mismo 100 veces, ¡le dices a Python que lo repita!
 
-## 🔄 El ciclo for (4 minutos)
+## 🔄 El ciclo for
 
 ### Repetir un número específico de veces:
 
@@ -48,7 +48,7 @@ for i in range(1, 11):
     print(numero, "x", i, "=", resultado)
 ```
 
-## 🔢 range() explicado (1 minuto)
+## 🔢 range() explicado
 
 ```python
 range(5)        # 0, 1, 2, 3, 4
@@ -56,7 +56,7 @@ range(1, 6)     # 1, 2, 3, 4, 5
 range(2, 10, 2) # 2, 4, 6, 8 (de 2 en 2)
 ```
 
-## 🎮 Ejemplo: Contador regresivo (1 minuto)
+## 🎮 Ejemplo: Contador regresivo
 
 ```python
 print("Cuenta regresiva:")

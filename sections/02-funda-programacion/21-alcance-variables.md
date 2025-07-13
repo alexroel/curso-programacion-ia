@@ -1,10 +1,10 @@
 # Alcance de variables
 
-## 🎯 ¿Dónde viven las variables? (2 minutos)
+## 🎯 ¿Dónde viven las variables?
 
 El **alcance** (o scope) de una variable define dónde puede ser usada en tu programa. Es como preguntar: "¿En qué habitaciones de la casa puedo usar este objeto?"
 
-## 🏠 Variables globales: Para toda la casa (2 minutos)
+## 🏠 Variables globales: Para toda la casa
 
 ### Variables fuera de funciones:
 
@@ -22,7 +22,7 @@ saludar()   # Hola Ana
 despedir()  # Adiós Ana
 ```
 
-## 🚪 Variables locales: Solo en su habitación (2 minutos)
+## 🚪 Variables locales: Solo en su habitación
 
 ### Variables dentro de funciones:
 
@@ -48,7 +48,7 @@ celebrar_cumpleanos()  # Ahora tienes 26 años
 print(edad)            # 25 (la global no cambió)
 ```
 
-## 🔄 Modificar variables globales (1 minuto)
+## 🔄 Modificar variables globales
 
 ```python
 contador = 0  # Global

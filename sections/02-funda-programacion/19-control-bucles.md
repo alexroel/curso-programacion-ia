@@ -1,10 +1,10 @@
 # Control de bucles
 
-## 🎯 Controlando tus ciclos (1 minuto)
+## 🎯 Controlando tus ciclos
 
 A veces necesitas más control sobre tus ciclos: salir antes de tiempo o saltar ciertas repeticiones. Python te da herramientas simples para esto.
 
-## 🛑 break: Salir del ciclo (3 minutos)
+## 🛑 break: Salir del ciclo
 
 ### Ejemplo básico:
 
@@ -40,7 +40,7 @@ for numero in numeros:
         break
 ```
 
-## ⏭️ continue: Saltar a la siguiente repetición (2 minutos)
+## ⏭️ continue: Saltar a la siguiente repetición
 
 ### Ejemplo básico:
 
@@ -69,7 +69,7 @@ for numero in range(1, 11):
     print(numero, "es par")
 ```
 
-## 🎮 Ejemplo: Juego de adivinanza (1 minuto)
+## 🎮 Ejemplo: Juego de adivinanza
 
 ```python
 numero_secreto = 7

@@ -1,10 +1,10 @@
 # Manejo básico de errores
 
-## 🎯 Cuando las cosas salen mal (1 minuto)
+## 🎯 Cuando las cosas salen mal
 
 Los errores son normales en programación. En lugar de que tu programa se "rompa", podemos **capturar** los errores y manejarlos elegantemente.
 
-## 🚨 Problema común: División por cero (2 minutos)
+## 🚨 Problema común: División por cero
 
 ### Sin manejo de errores:
 
@@ -27,7 +27,7 @@ except:
     print("Error: No se puede dividir por cero")
 ```
 
-## 🛡️ La estructura try-except (3 minutos)
+## 🛡️ La estructura try-except
 
 ### Sintaxis básica:
 
@@ -53,7 +53,7 @@ except:
 **Sin try-except**: Si escribes "veinte" → Programa se rompe
 **Con try-except**: Si escribes "veinte" → Mensaje amigable
 
-## 🎮 Ejemplo: Calculadora segura (1 minuto)
+## 🎮 Ejemplo: Calculadora segura
 
 ```python
 print("=== CALCULADORA SEGURA ===")
