@@ -97,7 +97,35 @@ nombre = input("___")
 # ... continúa
 ```
 
-## 📤 Resumen: input() y print()
+## � Proyecto: Comenzando la Calculadora de Edad
+
+A partir de esta lección, comenzaremos a construir una **calculadora de edad completa**. Empezaremos con los fundamentos:
+
+```python
+# Versión 1: Recopilar datos básicos
+print("=== CALCULADORA DE EDAD ===")
+
+# Obtener información del usuario
+nombre = input("¿Cuál es tu nombre? ")
+print("Ingresa tu fecha de nacimiento:")
+dia = input("Día: ")
+mes = input("Mes: ")
+año = input("Año: ")
+
+# Mostrar los datos (por ahora solo mostrar)
+print(f"\nHola {nombre}!")
+print(f"Naciste el {dia}/{mes}/{año}")
+print("(En las próximas lecciones calcularemos tu edad)")
+```
+
+**En cada lección iremos agregando más funcionalidad:**
+
+- Lección 17: Agregar condicionales para validar datos
+- Lección 18: Usar ciclos para repetir el programa
+- Lección 20: Organizar el código con funciones
+- Lección 22: Manejar errores de entrada
+
+## �📤 Resumen: input() y print()
 
 - **`print()`**: Muestra información al usuario
 - **`input()`**: Pide información al usuario

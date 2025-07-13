@@ -92,6 +92,59 @@ for numero in range(1, 6):
 print("La suma es:", suma)
 ```
 
+## 🚀 Proyecto: Calculadora con Cálculo de Edad
+
+Ahora agreguemos el **cálculo real de la edad** y clasificación por categorías:
+
+```python
+# Versión 3: Calculando la edad real
+print("=== CALCULADORA DE EDAD ===")
+
+# Obtener información del usuario
+nombre = input("¿Cuál es tu nombre? ")
+print("Ingresa tu fecha de nacimiento:")
+dia = int(input("Día: "))
+mes = int(input("Mes: "))
+año = int(input("Año: "))
+
+# Calcular edad (versión simple)
+año_actual = 2025
+edad = año_actual - año
+
+# Clasificar por edad usando condicionales
+print(f"\nHola {nombre}!")
+print(f"Tienes aproximadamente {edad} años.")
+
+# Clasificación en categorías
+print("\nTu categoría es:")
+if edad < 2:
+    print("🍼 Bebé")
+elif edad < 12:
+    print("👶 Niño")
+elif edad < 18:
+    print("🧒 Adolescente")
+elif edad < 30:
+    print("👤 Adulto joven")
+elif edad < 60:
+    print("👨 Adulto")
+else:
+    print("👴 Adulto mayor")
+
+# Mostrar algunos años importantes
+print(f"\nDatos curiosos:")
+for i in range(5):
+    año_futuro = año_actual + i
+    edad_futura = edad + i
+    print(f"En {año_futuro} tendrás {edad_futura} años")
+```
+
+**Nuevo en esta versión:**
+
+- ✅ Cálculo básico de edad (año actual - año nacimiento)
+- ✅ Clasificación en categorías de edad
+- ✅ Uso de ciclos para mostrar años futuros
+- ✅ Datos curiosos sobre edades futuras
+
 ## 🎯 Ejemplo con input(): Preguntar varias veces
 
 ```python

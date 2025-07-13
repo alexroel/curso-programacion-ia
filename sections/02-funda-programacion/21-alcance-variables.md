@@ -84,6 +84,98 @@ Dentro: Nuevo mensaje
 Fuera: Hola mundo
 ```
 
+## 🚀 Proyecto: Entendiendo Variables en Funciones
+
+Veamos cómo el **alcance de variables** afecta nuestra calculadora:
+
+```python
+# Versión 5.1: Explorando alcance de variables
+from datetime import date
+
+# Variables globales (disponibles en todo el programa)
+año_actual = 2025
+versión_programa = "Calculadora v5.1"
+
+def obtener_datos_usuario():
+    """Las variables aquí son locales a esta función"""
+    nombre = input("¿Cuál es tu nombre? ")
+    print("Ingresa tu fecha de nacimiento:")
+    dia = int(input("Día: "))
+    mes = int(input("Mes: "))
+    año = int(input("Año: "))
+    # Estas variables solo existen dentro de esta función
+    return nombre, dia, mes, año
+
+def calcular_edad(dia, mes, año):
+    """Esta función puede usar variables globales"""
+    hoy = date.today()
+    nacimiento = date(año, mes, dia)
+
+    # Usamos la variable global año_actual
+    edad = año_actual - año
+    if (hoy.month, hoy.day) < (mes, dia):
+        edad -= 1
+
+    return edad
+
+def mostrar_info_programa():
+    """Función que usa variable global"""
+    global versión_programa  # Indicamos que queremos usar la global
+    print(f"Usando: {versión_programa}")
+    print(f"Año de referencia: {año_actual}")
+
+def clasificar_edad(edad):
+    """Variables locales para clasificación"""
+    # Estas variables solo existen en esta función
+    limite_bebe = 2
+    limite_niño = 12
+    limite_adolescente = 18
+    limite_adulto_joven = 30
+    limite_adulto = 60
+
+    if edad < limite_bebe:
+        return "🍼 Bebé"
+    elif edad < limite_niño:
+        return "👶 Niño"
+    elif edad < limite_adolescente:
+        return "🧒 Adolescente"
+    elif edad < limite_adulto_joven:
+        return "👤 Adulto joven"
+    elif edad < limite_adulto:
+        return "👨 Adulto"
+    else:
+        return "👴 Adulto mayor"
+
+# Programa principal
+print("=== CALCULADORA DE EDAD ===")
+mostrar_info_programa()
+
+while True:
+    print("\n" + "="*30)
+
+    # Las variables aquí son locales al bucle principal
+    nombre, dia, mes, año = obtener_datos_usuario()
+    edad = calcular_edad(dia, mes, año)
+    categoria = clasificar_edad(edad)
+
+    print(f"\n🎉 Resultado para {nombre}:")
+    print(f"Tienes {edad} años")
+    print(f"Categoría: {categoria}")
+
+    repetir = input("\n¿Deseas hacer otra consulta? (s/n): ").strip().lower()
+    if repetir != 's':
+        print("¡Gracias por usar la calculadora! ¡Hasta luego!")
+        break
+```
+
+**Conceptos demostrados:**
+
+- ✅ Variables globales (`año_actual`, `versión_programa`)
+- ✅ Variables locales en cada función
+- ✅ Uso de `global` para modificar variables globales
+- ✅ Cómo las funciones pueden acceder a variables globales
+- ✅ Variables que solo existen dentro de su función
+
 ## 💡 Regla simple para principiantes
 
 1. **Variables fuera de funciones** = Se pueden usar en todas partes

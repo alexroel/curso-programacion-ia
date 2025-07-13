@@ -107,6 +107,83 @@ def calcular_edad(año_nacimiento):
 calcular_edad(2000)  # Debería imprimir: Tienes 25 años
 ```
 
+## 🚀 Proyecto: Organizando con Funciones
+
+Ahora **organizaremos** nuestro código usando funciones para hacerlo más limpio y reutilizable:
+
+```python
+# Versión 5: Código organizado con funciones
+from datetime import date  # Para trabajar con fechas
+
+def obtener_datos_usuario():
+    """Función para obtener los datos del usuario"""
+    nombre = input("¿Cuál es tu nombre? ")
+    print("Ingresa tu fecha de nacimiento:")
+    dia = int(input("Día: "))
+    mes = int(input("Mes: "))
+    año = int(input("Año: "))
+    return nombre, dia, mes, año
+
+def calcular_edad(dia, mes, año):
+    """Función para calcular la edad exacta"""
+    hoy = date.today()
+    nacimiento = date(año, mes, dia)
+
+    edad = hoy.year - año
+    # Ajustar si aún no ha sido el cumpleaños este año
+    if (hoy.month, hoy.day) < (mes, dia):
+        edad -= 1
+
+    return edad
+
+def clasificar_edad(edad):
+    """Función para clasificar la edad en categorías"""
+    if edad < 2:
+        return "🍼 Bebé"
+    elif edad < 12:
+        return "👶 Niño"
+    elif edad < 18:
+        return "🧒 Adolescente"
+    elif edad < 30:
+        return "👤 Adulto joven"
+    elif edad < 60:
+        return "👨 Adulto"
+    else:
+        return "👴 Adulto mayor"
+
+def mostrar_resultado(nombre, edad, categoria):
+    """Función para mostrar el resultado final"""
+    print(f"\n🎉 Resultado para {nombre}:")
+    print(f"Tienes {edad} años")
+    print(f"Categoría: {categoria}")
+
+# Programa principal
+print("=== CALCULADORA DE EDAD ===")
+
+while True:
+    print("\n" + "="*30)
+
+    # Usar nuestras funciones
+    nombre, dia, mes, año = obtener_datos_usuario()
+    edad = calcular_edad(dia, mes, año)
+    categoria = clasificar_edad(edad)
+    mostrar_resultado(nombre, edad, categoria)
+
+    # Preguntar si continuar
+    repetir = input("\n¿Deseas hacer otra consulta? (s/n): ").strip().lower()
+    if repetir != 's':
+        print("¡Gracias por usar la calculadora! ¡Hasta luego!")
+        break
+```
+
+**Nuevo en esta versión:**
+
+- ✅ Código organizado en funciones específicas
+- ✅ Cálculo exacto de edad considerando mes y día
+- ✅ Funciones reutilizables y bien documentadas
+- ✅ Uso de `return` para devolver valores
+- ✅ Importación del módulo `datetime` para fechas
+
 ## 🎮 Ejemplo: Función para juegos
 
 ```python

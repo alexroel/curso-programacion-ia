@@ -91,6 +91,53 @@ else:
     print("___")
 ```
 
+## 🚀 Proyecto: Mejorando la Calculadora de Edad
+
+Ahora agreguemos **validaciones básicas** con condicionales:
+
+```python
+# Versión 2: Agregando validaciones
+print("=== CALCULADORA DE EDAD ===")
+
+# Obtener información del usuario
+nombre = input("¿Cuál es tu nombre? ")
+print("Ingresa tu fecha de nacimiento:")
+dia = int(input("Día: "))
+mes = int(input("Mes: "))
+año = int(input("Año: "))
+
+# Validaciones básicas con condicionales
+print(f"\nHola {nombre}!")
+
+# Validar día
+if dia >= 1 and dia <= 31:
+    print("✓ Día válido")
+else:
+    print("⚠️ El día parece incorrecto")
+
+# Validar mes
+if mes >= 1 and mes <= 12:
+    print("✓ Mes válido")
+else:
+    print("⚠️ El mes parece incorrecto")
+
+# Validar año (debe ser razonable)
+if año >= 1900 and año <= 2025:
+    print("✓ Año válido")
+else:
+    print("⚠️ El año parece incorrecto")
+
+print(f"\nFecha ingresada: {dia}/{mes}/{año}")
+print("(En las próximas lecciones calcularemos la edad)")
+```
+
+**Nuevo en esta versión:**
+
+- ✅ Validación de día (1-31)
+- ✅ Validación de mes (1-12)
+- ✅ Validación de año (1900-2025)
+- ✅ Mensajes informativos al usuario
+
 ## 🎮 Ejemplo: Juego simple
 
 ```python
