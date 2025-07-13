@@ -2,7 +2,7 @@
 
 ## 🎯 ¡Bienvenido a tu primer paso como programador!
 
-En esta sección darás los primeros pasos en el mundo de la programación. Cada lección es corta (máximo 7 minutos) y está diseñada para principiantes absolutos.
+En esta sección darás los primeros pasos en el mundo de la programación. Cada lección es corta y está diseñada para principiantes absolutos.
 
 ## 📚 ¿Qué aprenderás?
 
@@ -19,7 +19,6 @@ En 8 lecciones rápidas dominarás:
 
 ## ⏱️ Formato de clases
 
-- **Máximo 7 minutos** por lección
 - **Un concepto a la vez**
 - **Ejemplos simples y claros**
 - **Sin tecnicismos complicados**

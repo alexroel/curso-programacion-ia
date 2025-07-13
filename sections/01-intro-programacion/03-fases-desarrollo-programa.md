@@ -1,6 +1,6 @@
 # Fases de desarrollo de un programa
 
-## 🎯 Los pasos básicos (2 minutos)
+## 🎯 Los pasos básicos
 
 Cuando quieres hacer un programa, sigues **4 pasos simples**:
 
@@ -42,7 +42,7 @@ numero2 = input("Segundo número: ")
 - ¿Hay errores?
 - ¿Se puede mejorar?
 
-## 🎮 Ejemplo súper fácil (3 minutos)
+## 🎮 Ejemplo súper fácil
 
 **Quiero hacer un programa que me salude:**
 
@@ -69,14 +69,14 @@ print("¡Hola " + nombre + "! ¡Que tengas buen día!")
 - ¿Se ve bien? ✅
 - ¡Listo!
 
-## 🧠 ¿Por qué seguir estos pasos? (1 minuto)
+## 🧠 ¿Por qué seguir estos pasos?
 
 - **Sin plan = código confuso** 😵
 - **Con plan = código ordenado** 😊
 - **Ahorras tiempo** al final
 - **Evitas errores** grandes
 
-## 🔄 En la vida real (1 minuto)
+## 🔄 En la vida real
 
 Los programadores profesionales también siguen estos mismos pasos, ¡solo que con problemas más complejos!
 
@@ -108,8 +108,6 @@ INICIO
 6. Mostrar el resultado
 7. Preguntar si desea continuar
    FIN
-
-````
 
 ### 3. **Codificación** ⌨️
 
@@ -152,7 +150,7 @@ def calculadora():
 
 # Ejecutar programa
 calculadora()
-````
+```
 
 ### 4. **Pruebas** 🔧
 
@@ -180,7 +178,6 @@ calculadora()
 
 **Ejemplo de documentación:**
 
-```markdown
 ## Calculadora Simple v1.0
 
 ### Cómo usar:
@@ -195,7 +192,6 @@ calculadora()
 ### Requisitos:
 
 - Python 3.6 o superior
-```
 
 ### 6. **Mantenimiento** 🔄
 
@@ -218,12 +214,15 @@ calculadora()
 #### Fase 2 - Diseño:
 
 ```
+
 MENÚ:
+
 1. Ver tareas
 2. Agregar tarea
 3. Completar tarea
 4. Eliminar tarea
 5. Salir
+
 ```
 
 #### Fase 3 - Codificación:

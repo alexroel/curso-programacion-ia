@@ -1,6 +1,6 @@
 # Cómo aprovechar la IA para aprender
 
-## 🤖 Tu nuevo mejor amigo (2 minutos)
+## 🤖 Tu nuevo mejor amigo
 
 La **inteligencia artificial** es como tener un **maestro personal disponible 24/7** que nunca se cansa de explicarte.
 
@@ -12,7 +12,7 @@ La **inteligencia artificial** es como tener un **maestro personal disponible 24
 - **Darte ejercicios** para practicar
 - **¡Nunca juzgarte!** Pregunta lo que quieras
 
-## 🛠️ Las herramientas principales (2 minutos)
+## 🛠️ Las herramientas principales
 
 ### 1. **ChatGPT / Claude** 💬
 
@@ -24,7 +24,7 @@ La **inteligencia artificial** es como tener un **maestro personal disponible 24
 - Te ayuda mientras escribes código
 - Te da sugerencias inteligentes
 
-## 🎯 Cómo preguntar correctamente (2 minutos)
+## 🎯 Cómo preguntar correctamente
 
 ### ❌ Pregunta mala:
 
@@ -38,7 +38,7 @@ La **inteligencia artificial** es como tener un **maestro personal disponible 24
 
 "Soy principiante absoluto. Explícame variables en Python como si tuviera 10 años, con ejemplos de la vida real y código simple"
 
-## 🎮 Ejemplos prácticos (1 minuto)
+## 🎮 Ejemplos prácticos
 
 ### Para entender conceptos:
 
@@ -59,7 +59,7 @@ La **inteligencia artificial** es como tener un **maestro personal disponible 24
 print('Hola mundo')
 ```
 
-## 🌟 Reglas de oro con IA (30 segundos)
+## 🌟 Reglas de oro con IA
 
 1. **Específica qué nivel eres** ("soy principiante")
 2. **Pide ejemplos** siempre

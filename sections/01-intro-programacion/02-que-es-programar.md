@@ -1,6 +1,6 @@
-# ¿Qué es programar?
+# ¿Qué es programar o programación?
 
-## 🎯 Concepto simple (2 minutos)
+## 🎯 Concepto simple
 
 **Programar** es dar instrucciones muy detalladas a una computadora para que haga exactamente lo que tú quieres.
 
@@ -18,7 +18,7 @@ Es como explicarle a alguien que nunca ha cocinado cómo hacer un sándwich:
 3. Pon la otra rebanada encima
 4. ¡Listo!
 
-## 💻 ¿Por qué es útil? (2 minutos)
+## 💻 ¿Por qué es útil?
 
 ### En tu vida diaria:
 
@@ -34,7 +34,7 @@ Es como explicarle a alguien que nunca ha cocinado cómo hacer un sándwich:
 - Automatizar tareas aburridas
 - ¡Resolver problemas creativamente!
 
-## � Ejemplo súper simple (2 minutos)
+## Ejemplo súper simple
 
 Imagina que quieres que la computadora te salude:
 
@@ -44,7 +44,7 @@ print("¡Hola! ¿Cómo estás?")
 
 ¡Eso es programación! Le dijiste exactamente qué mostrar en pantalla.
 
-## 🌟 ¿Es difícil? (1 minuto)
+## 🌟 ¿Es difícil
 
 **¡Para nada!**
 

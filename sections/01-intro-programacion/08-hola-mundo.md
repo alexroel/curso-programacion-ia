@@ -69,10 +69,12 @@ En la siguiente lección haremos un **resumen** de todo lo aprendido.
 ---
 
 **💡 ¡Celebra!**: ¡Acabas de escribir tu primer programa! Todos los programadores famosos empezaron igual.
+
+```python
+# Mi primer programa en Python
 print("¡Hola, mundo!")
 print("Mi nombre es [Tu nombre aquí]")
 print("¡Este es mi primer programa Python!")
-
 ```
 
 ### Cambios realizados:
@@ -83,13 +85,12 @@ print("¡Este es mi primer programa Python!")
 
 ### Ejecutar y ver:
 
-```
+```bash
+python hola_mundo.py
 
+# Resultado esperado:
 ¡Hola, mundo!
-Mi nombre es Ana
-¡Este es mi primer programa Python!
-
-````
+```
 
 ## 🔍 Analicemos el código paso a paso
 
@@ -97,7 +98,7 @@ Mi nombre es Ana
 
 ```python
 # Esto es un comentario
-````
+```
 
 **Para qué sirven**: Explicar qué hace tu código para otros programadores (¡o para ti en el futuro!)
 

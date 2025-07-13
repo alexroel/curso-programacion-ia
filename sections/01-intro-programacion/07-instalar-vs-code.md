@@ -1,6 +1,6 @@
 # Instalar VS Code
 
-## 💻 ¿Qué es VS Code? (1 minuto)
+## 💻 ¿Qué es VS Code?
 
 **Visual Studio Code** es el **editor de código más usado del mundo**. Es como un Word, pero para programadores.
 
@@ -11,7 +11,7 @@
 - **Ayuda mientras escribes** código
 - **Muestra errores** antes de que ejecutes
 
-## 📥 Instalación (4 minutos)
+## 📥 Instalación
 
 ### En Windows:
 
@@ -45,7 +45,7 @@
 2. **Arrastra** VS Code a la carpeta **"Aplicaciones"**
 3. ¡Listo!
 
-## 🎯 Primera vez abriendo VS Code (2 minutos)
+## 🎯 Primera vez abriendo VS Code
 
 ### Al abrir VS Code verás:
 

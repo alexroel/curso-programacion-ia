@@ -1,6 +1,6 @@
 # Consola interactiva de Python
 
-## 🖥️ ¿Qué es la consola? (1 minuto)
+## 🖥️ ¿Qué es la consola?
 
 La **consola de Python** es como una **calculadora súper inteligente** donde puedes:
 
@@ -8,7 +8,7 @@ La **consola de Python** es como una **calculadora súper inteligente** donde pu
 - **Probar cosas** sin crear archivos
 - **Aprender experimentando**
 
-## 🚀 Cómo abrirla (2 minutos)
+## 🚀 Cómo abrirla
 
 ### En Windows:
 
@@ -30,7 +30,7 @@ Los `>>>` significan: **"¡Estoy listo para tus comandos!"**
 1. Abre **Terminal**
 2. Escribe **python3** y presiona Enter
 
-## 🧮 ¡Probemos! (3 minutos)
+## 🧮 ¡Probemos!
 
 ### Python como calculadora:
 
@@ -43,6 +43,25 @@ Los `>>>` significan: **"¡Estoy listo para tus comandos!"**
 
 >>> 20 / 4
 5.0
+
+>>> 2 ** 3  # Potencia: 2 elevado a 3
+8
+>>> 17 % 5  # Módulo: resto de la división
+2
+```
+
+### Calculos más avanzados:
+
+```python
+>>> (3 + 5) * 2  # Operaciones con paréntesis
+16
+>>> 100 / (5 * 2)  # División con paréntesis
+10.0
+
+>>> 3.14 * 2  # Números decimales
+6.28
+>>> 5 + 3 * 2  # Orden de operaciones
+11
 ```
 
 ### Tu primer mensaje:
@@ -55,29 +74,7 @@ Los `>>>` significan: **"¡Estoy listo para tus comandos!"**
 Mi nombre es Juan
 ```
 
-### Variables simples:
-
-```python
->>> nombre = "Ana"
->>> edad = 25
->>> print(nombre)
-Ana
->>> print(edad)
-25
-```
-
-## � Ejercicio rápido (1 minuto)
-
-**¡Intenta esto en tu consola!**
-
-```python
->>> mi_nombre = "Tu Nombre Aquí"
->>> print("Hola, soy " + mi_nombre)
->>> 5 + 3
->>> 100 / 10
-```
-
-## 🚪 Cómo salir
+## Cómo salir
 
 Para cerrar la consola:
 
@@ -105,8 +102,6 @@ En la siguiente lección **instalaremos VS Code** para escribir programas más g
 > > > 17 % 5 # Módulo: resto de la división
 > > > 2
 
-````
-
 ### 3. Trabajando con texto
 
 ```python
@@ -121,7 +116,7 @@ Mi primer programa
 
 >>> "Python " * 3
 'Python Python Python '
-````
+```
 
 ## 🔧 Trucos y atajos
 

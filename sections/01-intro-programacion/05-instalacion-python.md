@@ -1,6 +1,6 @@
 # Instalación de Python
 
-## 🐍 ¿Qué es Python? (1 minuto)
+## 🐍 ¿Qué es Python?
 
 **Python** es el lenguaje que vamos a usar. Es:
 
@@ -8,7 +8,7 @@
 - **Gratuito** 100%
 - Usado por **Google, Netflix, Instagram**
 
-## 💻 Instalación en Windows (4 minutos)
+## 💻 Instalación en Windows
 
 ### Paso 1: Descargar
 
@@ -50,7 +50,7 @@
 2. Escribe: **python3 --version**
 3. Debe aparecer la versión de Python
 
-## ❓ ¿Problemas? (30 segundos)
+## ❓ ¿Problemas?
 
 ### No aparece la versión:
 
@@ -77,8 +77,6 @@ En la siguiente lección probaremos **la consola interactiva de Python**.
 
 brew install python
 
-````
-
 ### 🐧 Linux (Ubuntu/Debian)
 
 Python normalmente ya está instalado, pero para asegurar la versión más reciente:
@@ -92,7 +90,7 @@ sudo apt install python3 python3-pip
 
 # Verificar instalación
 python3 --version
-````
+```
 
 ## ✅ Verificar que Python está funcionando
 
@@ -128,71 +126,6 @@ python3
 Python 3.12.1 (main, Dec  8 2023, 15:04:12)
 Type "help", "copyright", "credits" or "license" for more information.
 >>>
-```
-
-### 3. Tu primer comando Python
-
-```python
->>> print("¡Python funciona!")
-¡Python funciona!
-
->>> 2 + 2
-4
-
->>> exit()  # Para salir
-```
-
-## 🔧 Instalar pip (gestor de paquetes)
-
-**pip** te permite instalar bibliotecas adicionales. Normalmente se instala automáticamente con Python.
-
-### Verificar pip:
-
-```bash
-pip --version
-# o
-pip3 --version
-```
-
-### Si pip no está instalado:
-
-```bash
-# Windows/macOS/Linux
-python -m ensurepip --upgrade
-```
-
-## 🚨 Solución de problemas comunes
-
-### ❌ Problema: "python no se reconoce como comando"
-
-**Solución Windows:**
-
-1. Busca "Variables de entorno" en el menú inicio
-2. Clic en "Variables de entorno del sistema"
-3. En "Variables del sistema", busca "Path"
-4. Clic en "Editar"
-5. Clic en "Nuevo" y agrega:
-   - `C:\Users\[TuUsuario]\AppData\Local\Programs\Python\Python312\`
-   - `C:\Users\[TuUsuario]\AppData\Local\Programs\Python\Python312\Scripts\`
-
-### ❌ Problema: Versión antigua de Python
-
-**Solución:**
-
-- Desinstala la versión antigua
-- Descarga la más reciente de python.org
-- Reinstala con "Add to PATH" marcado
-
-### ❌ Problema: múltiples versiones de Python
-
-**Solución:**
-
-```bash
-# Usar versión específica
-python3.12 --version
-
-# Crear alias (macOS/Linux)
-alias python=python3.12
 ```
 
 ## ✅ ¡Verificación final!
